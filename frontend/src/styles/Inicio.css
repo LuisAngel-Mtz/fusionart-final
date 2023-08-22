@@ -1,0 +1,71 @@
+.flex_container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Alinear verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+  }
+  
+  .inicio_card {
+    width: 800px; /* Aumentamos el ancho del card */
+    border-width: 1px;
+    border-color: rgb(170, 205, 250);
+    border-radius: 1rem;
+    background-color: rgba(190, 229, 204, 0.59);
+    padding: 2rem; /* Aumentamos el padding para más espacio interno */
+    margin-top: 100px; /* Aumentamos el margen superior para bajar el card */
+  }
+  
+  .inicio_header {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  
+  .inicio_message {
+    margin-top: 1.5rem; /* Aumentamos el margen superior para separar el mensaje */
+    color: rgba(107, 114, 128, 1);
+  }
+  
+  .inicio_actions {
+    margin-top: 2rem; /* Aumentamos el margen superior para separar los botones */
+    display: flex;
+    flex-direction: column; /* Colocamos los botones en columna */
+    gap: 1rem;
+  }
+  
+  .inicio_actions a {
+    text-decoration: none;
+  }
+  
+  .inicio_btn {
+    display: inline-block;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 1.75rem 2rem; /* Aumentamos el padding para botones más grandes */
+    text-align: center;
+    font-size: 1.5rem; /* Aumentamos el tamaño de fuente para botones más grandes */
+    line-height: 2rem; /* Aumentamos la altura de línea para botones más grandes */
+    font-weight: 600;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+  }
+  
+  .inicio_btn.btn-primary {
+    background-color: #216911;
+  }
+  
+  .inicio_btn.btn-success {
+    background-color: #2859a7;
+  }
+  
+  .inicio_btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  .inicio_login_title {
+    text-align: center; /* Centramos horizontalmente */
+  }
