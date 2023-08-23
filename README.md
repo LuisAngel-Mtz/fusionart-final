@@ -38,13 +38,11 @@ Open the terminal or command prompt.
 
 Navigate to the "frontend" directory:
 
-arduino
-Copy code
+
 PS C:\xampp\htdocs\fusionart-final> cd frontend
 Run the following command to start the development server:
 
-arduino
-Copy code
+
 PS C:\xampp\htdocs\fusionart-final\frontend> npm run dev
 This will initiate the Vite development server. It will provide you with URLs to access the project locally, such as:
 
@@ -57,7 +55,6 @@ Open another terminal or command prompt window.
 
 Navigate to the "backend" directory:
 
-Copy code
 PS C:\xampp\htdocs\fusionart-final> cd backend
 Run the following command to start the back-end server:
 
