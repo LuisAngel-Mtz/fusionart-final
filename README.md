@@ -39,7 +39,7 @@ The "Production" section also employs a CRUD approach, this time focusing on man
 - Number of Defective Pieces
 - Action
 
-## Running the Project
+## Running the Project:
 
 ### Front-end
 
@@ -48,14 +48,15 @@ The "Production" section also employs a CRUD approach, this time focusing on man
 
 Example: PS D:\xampp\htdocs\fusionart-final> cd frontend
 Example: PS D:\xampp\htdocs\fusionart-final\frontend> npm run dev
-Local: http://localhost:5173/
-
+  ➜  Local:   http://localhost:5173/
 ### Back-end
 
 1. Open another terminal or command prompt window.
 2. Navigate to the "backend" directory:
+Running the project in the backend:
 Example: PS D:\xampp\htdocs\fusionart-final> cd backend
 Example: PS D:\xampp\htdocs\fusionart-final\backend> npm run start
+Conect or database 
 This will initiate the server using nodemon, which automatically restarts the server upon changes. You'll see messages like:
 
 [nodemon] watching path(s): .
@@ -66,3 +67,8 @@ Conectado a la base de datos
 
 It's important to note that when you open the project at Local: http://localhost:5173/, the entire website will appear in Spanish. You can edit the data to customize it to your original language.
 Please make sure to adjust the content according to your preferred language by modifying the relevant data within the project.
+It's essential to read the Project Download Guide to understand the project installation and ensure its proper functioning.
+Thank you for reading!
+
+
+
